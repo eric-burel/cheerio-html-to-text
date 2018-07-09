@@ -12,7 +12,7 @@ to avoid multiple parsing when couple with Juice.
 
 ## Usage
 
-    const htt = require('html-to-text')
+    const htt = require('cheerio-html-to-text')
     const text = htt.convert(html);
     
 Where `html` is either:
